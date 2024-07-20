@@ -11,7 +11,7 @@ String fetchCategoryModelToJson(List<FetchCategoryModel> data) => json.encode(Li
 
 class FetchCategoryModel {
   int id;
-  String name;
+  String? name;
   String image;
   String creationAt;
   String updatedAt;
